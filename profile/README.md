@@ -2,7 +2,7 @@
 
 Welcome! 
 
-This organization stores main projects developed by the data analytics team. 
+This organization stores main projects developed by the **re.green**'s data analytics team. 
 
 Good practices adapted by our team
 
