@@ -21,3 +21,21 @@ Co-authored-by:
 airibarrem <a.iribarrem@iis-rio.org>
 saramortara <saramortara@gmail.com>
 ```
+
+## Adding a new user on RStudio server
+
+```
+sudo useradd -m usuario
+sudo passwd usuario
+
+sudo usermod -a -G regreen,rstudio-server,sshusers usuario
+```
+
+If it doesn't work, then
+
+```
+sudo mkdir /home/usuario
+chown -R usuario:usuario /home/usuario
+```
+
+
