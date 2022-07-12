@@ -38,4 +38,8 @@ sudo mkdir /home/usuario
 chown -R usuario:usuario /home/usuario
 ```
 
+Format `home/.Renviron` to have the following lines:
+
+R_USER = /PROC/rtmp/
+R_LIBS_USER = /DATA/libraryR/4.1/
 
