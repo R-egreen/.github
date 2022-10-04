@@ -18,8 +18,7 @@ Your commit message followed by two vertical spaces.
 
 
 Co-authored-by:
-airibarrem <a.iribarrem@iis-rio.org>
-saramortara <saramortara@gmail.com>
+username <user@email.com>
 ```
 
 ## Adding a new user on RStudio server
