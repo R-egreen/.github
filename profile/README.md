@@ -11,6 +11,8 @@ Good practices adapted by our team
 - for repositories with branches, develop features work on specific branches, use `dev` to test, and keep the `main` updated from time to time
 - always create a `README.md` explaining the context of the project
 - specify which libraries and data are needed for each project
+- for R code follow the [tydiverse style guide](https://style.tidyverse.org/index.html)
+
 - for collective commits use: 
 
 ```
