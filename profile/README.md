@@ -4,7 +4,7 @@ Welcome!
 
 This organization stores main projects developed by the **re.green**'s data analytics team. 
 
-Good practices adapted by our team
+Good practices adopted by our team
 
 - repositories should be self-contained and whenever is possible use relative paths to read and write data
 - always use `git pull` and `git push` to avoid conflicts
