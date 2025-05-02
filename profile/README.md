@@ -1,8 +1,8 @@
-# Data analytics team
+# re.green's team
 
 Welcome! 
 
-This organization stores main projects developed by the **re.green**'s data analytics team. 
+This organization stores main projects developed by the **re.green**'s team. 
 
 Good practices adopted by our team
 
@@ -23,25 +23,3 @@ Co-authored-by:
 username <user@email.com>
 ```
 
-## Adding a new user on RStudio server
-
-```
-sudo useradd -m usuario
-sudo passwd usuario
-
-sudo usermod -a -G regreen,rstudio-server,sshusers usuario
-```
-
-If it doesn't work, then
-
-```
-sudo mkdir /home/usuario
-chown -R usuario:usuario /home/usuario
-```
-
-Format `home/.Renviron` to have the following lines:
-
-```
-R_USER = /PROC/rtmp/
-R_LIBS_USER = /DATA/libraryR/4.1/
-```
